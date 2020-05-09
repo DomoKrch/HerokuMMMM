@@ -12,6 +12,13 @@ client.on('ready', () => {
 client.on('message', msg => {
 
   if (msg.content === "testing")
-    msg.reply('Systems online. You did not crash me this time. Good job');
+    msg.reply('systems online');
 
+  if (msg.content === "nigga" || msg.content === "Nigga" ||
+      msg.content === "nigger" || msg.content === "Nigger" ||
+      msg.content === "fag" || msg.content === "Fag" ||
+      msg.content === "faggot" || msg.content === "Faggot" ||)
+  {
+    msg.reply('ok');
+  }
 })
