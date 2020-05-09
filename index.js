@@ -21,6 +21,8 @@ client.on('message', msg => {
     msg.reply('systems online');
 
   if (msg.content === "nigga" || msg.content === "Nigga" ||
+      msg.content === "ching chong" || msg.content === "Ching chong" ||
+      msg.content === "ching Chong" || msg.content === "Ching Chong" ||
       msg.content === "nigger" || msg.content === "Nigger" ||
       msg.content === "fag" || msg.content === "Fag" ||
       msg.content === "faggot" || msg.content === "Faggot")
