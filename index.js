@@ -20,12 +20,12 @@ client.on('message', msg => {
   if (msg.content === "testing")
     msg.reply('systems online');
 
-  if (msg.content === "nigga" || msg.content === "Nigga" ||
-      msg.content === "ching chong" || msg.content === "Ching chong" ||
+  if (msg.content === "nigga" || msg.content === "Nigga" || msg.content === "NIGGA" ||
+      msg.content === "ching chong" || msg.content === "Ching chong" || msg.content === "CHING CHONG" ||
       msg.content === "ching Chong" || msg.content === "Ching Chong" ||
-      msg.content === "nigger" || msg.content === "Nigger" ||
-      msg.content === "fag" || msg.content === "Fag" ||
-      msg.content === "faggot" || msg.content === "Faggot")
+      msg.content === "nigger" || msg.content === "Nigger" || msg.content === "NIGGER" ||
+      msg.content === "fag" || msg.content === "Fag" || msg.content === "FAG" ||
+      msg.content === "faggot" || msg.content === "Faggot" || msg.content === "FAGGOT")
   {
 
     var i = getRandomInt(13);
